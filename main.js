@@ -1,1 +1,1 @@
-main.js
+alert("is working!");

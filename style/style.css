@@ -85,8 +85,6 @@ nav {
 	background: linear-gradient(to right, rgb(255, 232, 0), rgb(75, 75, 75));
 }
 
-
-
 .flex_container a {
 	color: white;
 	text-decoration: none;
@@ -156,3 +154,24 @@ blockquote:first-child {
 blockquote:last-child {
   display: absolute;
  }
+
+ /* Medium screens */
+@media all and (max-width: 800px) {
+  .flex_container {
+    /* When on medium sized screens, we center it by evenly distributing empty space around items */
+    justify-content: space-around;
+  }
+}
+
+/* Small screens */
+@media all and (max-width: 500px) {
+  .flex_container {
+    flex-direction: column;
+    height: 400px;
+    
+  }
+
+	.flex_container a {
+		width: 100%;
+	}
+}

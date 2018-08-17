@@ -269,7 +269,6 @@ blockquote:last-child {
 
  /* Medium screens */
 @media all and (max-width: 800px) {
-
   .flex_container {
     height: 200px;
     justify-content: space-around;
@@ -280,7 +279,7 @@ blockquote:last-child {
 @media all and (max-width: 500px) {
   .flex_container {
     flex-direction: column;
-    height: 400px;
+    height: 500px;
   }
 
 	.flex_container a {

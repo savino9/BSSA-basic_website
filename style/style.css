@@ -76,6 +76,7 @@ nav {
   height: 100%;
   background-image: url(./img/home-bg.jpg);
   background-size: cover;
+  background-repeat: repeat-y;
   text-align: -webkit-center;
 }
 
@@ -277,6 +278,10 @@ blockquote:last-child {
 
 /* Small screens */
 @media all and (max-width: 500px) {
+  .main-quote {
+    max-width: 90%;
+  }
+
   .flex_container {
     flex-direction: column;
     height: 500px;

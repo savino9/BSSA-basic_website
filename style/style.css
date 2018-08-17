@@ -290,4 +290,9 @@ blockquote:last-child {
 	.flex_container a {
 		width: 100%;
 	}
+
+  .flex_container a li {
+    text-align: left;
+    width: 100%;
+  }
 }

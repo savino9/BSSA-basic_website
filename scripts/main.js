@@ -8,8 +8,8 @@ canvas.width = 1280;
 canvas.height = 800;
 draw();
 
-// var textStrip = ['诶', '比', '西', '迪', '伊', '吉', '艾', '杰', '开', '哦', '屁', '提', '维'];
-var textStrip = ['0', '1'];
+var textStrip = ['诶', '比', '西', '迪', '伊', '吉', '艾', '杰', '开', '哦', '屁', '提', '维'];
+// var textStrip = ['0', '1'];
 
 var stripCount = 60, stripX = new Array(), stripY = new Array(), dY = new Array(), stripFontSize = new Array();
 

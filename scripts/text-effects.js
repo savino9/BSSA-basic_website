@@ -1,5 +1,5 @@
 // ---------------------------------------------------------------
-// Text effect 
+// Text effect Hand typing 
 // ---------------------------------------------------------------
 function typeEffect(element, speed) {
 	var text = $(element).text();
@@ -27,7 +27,7 @@ $( document ).ready(function() {
 });
 
 // ——————————————————————————————————————————————————
-// TextScramble
+// Cyberpunk Manifesto effect
 // ——————————————————————————————————————————————————
 
 class TextScramble {
@@ -84,9 +84,7 @@ class TextScramble {
   }
 }
 
-// ——————————————————————————————————————————————————
-// Example
-// ——————————————————————————————————————————————————
+
 
 const phrases = [
   'We are the ELECTRONIC MINDS, a group of free-minded rebels.',
